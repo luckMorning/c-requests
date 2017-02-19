@@ -9,14 +9,25 @@ using std::map;
 
 //forward define
 class respone;
-class requests;
+class Requests;
 
+class respone 
+{
 
-class requests 
+public:
+    string status_code;
+    string text;
+    map <string,string> headers;
+};
+
+class Requests 
 {
 public:
-    respone get(string url) const;
+    map <string,string> headers;
+    respone get(string url) ;
     respone post(string url,map<string,string> data);
-}
+};
+
+Requests requests;
 
 #endif
