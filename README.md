@@ -1,7 +1,7 @@
 
 
-<h1>tcpcli(char *ip,port)</h1>
-tcpcli.sread(char *buff,int size)
-tcpcli.swrite(char *buff,int size)
-respone s = request.get(string url)
+<p>tcpcli(char *ip,port)</p>
+<p>tcpcli.sread(char *buff,int size)</p>
+<p>tcpcli.swrite(char *buff,int size)</p>
+<p>respone s = request.get(string url)</p>
 
